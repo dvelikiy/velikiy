@@ -1,5 +1,5 @@
 ---
-title: Handy tools I've been using recently
+title: Handy Tools I've Been Using Recently
 description: Codeium AI coding assistant and Vite, a fast dev server and module bundler
 ---
 

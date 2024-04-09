@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: 'Blog',
         items: [
-          { text: 'Handy tools I\'ve been using recently', link: '/blog/handy-tools' },
+          { text: 'Handy Tools I\'ve Been Using Recently', link: '/blog/handy-tools' },
         ]
       }
     ],
