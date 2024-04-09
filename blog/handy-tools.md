@@ -5,6 +5,8 @@ description: Codeium AI coding assistant and Vite, a fast dev server and module 
 
 # Handy Tools I've Been Using Recently
 
+![Codeium and Vite](./handy-tools.png)
+
 So I've just been meaning to share my experience with tools that are fairly recent but also robust enough to recommend. 
 
 ## Codeium AI Coding Assistant
