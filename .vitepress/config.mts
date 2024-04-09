@@ -6,23 +6,24 @@ export default defineConfig({
   description: "Personal website of Dmitry Velikiy",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   { text: 'Examples', link: '/markdown-examples' }
-    // ],
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Blog', link: '/blog/handy-tools' }
+    ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Blog',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Handy tools I\'ve been using recently', link: '/blog/handy-tools' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/dvelikiy' }
-    ]
-  }
+      { icon: 'github', link: 'https://github.com/dvelikiy' },
+      // { icon: 'linkedin', link: 'https://github.com/dvelikiy' }
+    ],
+  },
+  lastUpdated: true,
 })
