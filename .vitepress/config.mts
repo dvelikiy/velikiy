@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -27,4 +28,13 @@ export default defineConfig({
     ],
   },
   lastUpdated: true,
+  vite: {
+    plugins: [
+      ViteImageOptimizer({
+        png: {
+          quality: 95
+        },
+      })
+    ]
+  },
 })
