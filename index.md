@@ -6,6 +6,9 @@ hero:
   name: "Velikiy"
   text: "Personal website of Dmitry Velikiy"
   tagline: Great web apps always at your service!
+  image:
+    src: /me_small.jpg
+    alt: Dmitry
   # actions:
   #   - theme: brand
   #     text: Markdown Examples

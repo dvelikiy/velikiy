@@ -8,8 +8,7 @@
     "sharp": "^0.33.4",
     "svgo": "^3.3.2",
     "vite-plugin-image-optimizer": "^1.1.8",
-    "vitepress": "^1.2.3",
-    "jquery": "2.2.0"
+    "vitepress": "^1.2.3"
   },
   "dependencies": {
     "vue": "^3.4.21"

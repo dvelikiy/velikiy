@@ -24,7 +24,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dvelikiy' },
       { icon: 'youtube', link: 'https://www.youtube.com/@DmitryVelikiyWeb' },
-      // { icon: 'linkedin', link: 'https://github.com/dvelikiy' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/dmitry-velikiy/' }
     ],
   },
   lastUpdated: true,
