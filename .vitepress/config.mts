@@ -40,4 +40,36 @@ export default defineConfig({
       })
     ]
   },
+  head: [
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js',
+      }
+    ], [
+      'script',
+      {},
+      `
+      function randomInRange(min, max) {
+        return Math.random() * (max - min) + min;
+      }
+
+      const doRandomConfetti = () => {
+        confetti({
+          angle: randomInRange(55, 125),
+          spread: randomInRange(50, 70),
+          particleCount: randomInRange(50, 100),
+          origin: { y: 0.6 }
+        });
+      }
+
+      setTimeout(function() {
+        const button = document.querySelector('.VPButton');
+        button.addEventListener('click', doRandomConfetti);
+      }, 1000);
+
+      `
+    ]
+  ]
 })

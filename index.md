@@ -9,10 +9,10 @@ hero:
   image:
     src: /me_small.jpg
     alt: Dmitry
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
+  actions:
+    - theme: brand
+      text: Click Me
+      link: \#
   #   - theme: alt
   #     text: API Examples
   #     link: /api-examples
